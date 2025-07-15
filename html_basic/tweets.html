@@ -6,20 +6,32 @@
   <title>My Tweets</title>
 </head>
 <body>
-  <h1>Embedded Tweet</h1>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <!-- Embed a tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Today marks the beginning of a new journey into web development 🚀
-      <a href="https://twitter.com/example/status/1234567890">March 20, 2024</a>
-    </p>&mdash; Developer Example
-    (<a href="https://twitter.com/example">@example</a>)
-  </blockquote>
+  <main>
+    <article>
+      <h1>Embedded Tweet</h1>
 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <!-- Embed a real tweet or use the example below -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Learning web development step by step! Loving the journey! 🚀<br><a href="https://twitter.com/example/status/1234567890">March 20, 2024</a></p>
+        &mdash; Developer Example (<a href="https://twitter.com/example">@example</a>)
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-  <!-- Link back to homepage -->
-  <p><a href="index.html">← Back to Home</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Kamanzi Serge - <a href="https://github.com/sergekamanzi" target="_blank">here</a>.</p>
+  </footer>
 </body>
 </html>
